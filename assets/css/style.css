@@ -1,0 +1,50 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(/assets/images/background.jpg);
+    width: 100%;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding: 3%;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 5%;
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 1rem;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+#save-el {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10%;
+    font-size: 30px;
+    border-radius: 10px;
+}
